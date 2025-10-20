@@ -1,0 +1,41 @@
+body {
+    background-color: beige;
+    font-family: Arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+th, td {
+    padding: 10px;
+    border: 2px solid black;
+}
+
+/* Table 2 colors — each cell different */
+table:nth-of-type(2) th:nth-child(1) { background-color: lightseagreen; color: white; }
+table:nth-of-type(2) th:nth-child(2) { background-color: tomato; color: yellow; }
+table:nth-of-type(2) th:nth-child(3) { background-color: gold; color: purple; }
+table:nth-of-type(2) th:nth-child(4) { background-color: turquoise; color: black; }
+table:nth-of-type(2) th:nth-child(5) { background-color: orchid; color: navy; }
+
+table:nth-of-type(2) tr:nth-child(2) td:nth-child(1) { background-color: lavender; color: red; }
+table:nth-of-type(2) tr:nth-child(2) td:nth-child(2) { background-color: lightgreen; color: blue; }
+table:nth-of-type(2) tr:nth-child(2) td:nth-child(3) { background-color: peachpuff; color: maroon; }
+table:nth-of-type(2) tr:nth-child(2) td:nth-child(4) { background-color: honeydew; color: teal; }
+table:nth-of-type(2) tr:nth-child(2) td:nth-child(5) { background-color: pink; color: brown; }
+
+table:nth-of-type(2) tr:nth-child(3) td:nth-child(1) { background-color: lightblue; color: darkred; }
+table:nth-of-type(2) tr:nth-child(3) td:nth-child(2) { background-color: lemonchiffon; color: black; }
+table:nth-of-type(2) tr:nth-child(3) td:nth-child(3) { background-color: thistle; color: indigo; }
+table:nth-of-type(2) tr:nth-child(3) td:nth-child(4) { background-color: mistyrose; color: darkgreen; }
+table:nth-of-type(2) tr:nth-child(3) td:nth-child(5) { background-color: beige; color: violet; }
+
+table:nth-of-type(2) tr:nth-child(4) td:nth-child(1) { background-color: lightgray; color: crimson; }
+table:nth-of-type(2) tr:nth-child(4) td:nth-child(2) { background-color: wheat; color: navy; }
+table:nth-of-type(2) tr:nth-child(4) td:nth-child(3) { background-color: salmon; color: darkblue; }
+table:nth-of-type(2) tr:nth-child(4) td:nth-child(4) { background-color: palegreen; color: brown; }
+table:nth-of-type(2) tr:nth-child(4) td:nth-child(5) { background-color: aliceblue; color: darkmagenta; }
